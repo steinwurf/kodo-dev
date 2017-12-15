@@ -1,2 +1,3 @@
 # kodo-dev
-Internal repository for testing kodo 
+
+Internal repository for testing the kodo familiy of repositories.
