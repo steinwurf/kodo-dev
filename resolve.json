@@ -18,15 +18,6 @@
         ]
     },
     {
-        "name": "kodo-fulcrum",
-        "resolver": "git",
-        "method": "semver",
-        "major": 7,
-        "sources": [
-            "github.com/steinwurf/kodo-fulcrum.git"
-        ]
-    },
-    {
         "name": "kodo-reed-solomon",
         "resolver": "git",
         "method": "semver",
