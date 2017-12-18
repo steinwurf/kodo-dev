@@ -16,6 +16,7 @@ as if they were located in the same repository.
 As a simple example. A bug is reported against `kodo-core` you can set the 
 branch for `kodo-core` here and rebuild all kodo repositories with that version. 
 
+
 ## Goals
 
 1. Ensure that dependencies of all kodo repositories are in sync. I.e. they use
@@ -26,13 +27,12 @@ branch for `kodo-core` here and rebuild all kodo repositories with that version.
    branches in each kodo top level repository.
 
 
-
 ## Work flow
 
 In the master branch of `kodo-dev` we have the kodo top-level repositories in
 [resolve.json](https://github.com/steinwurf/kodo-dev/blob/master/resolve.json)
 
-The basic idea is that we use the following approach:,,
+The basic idea is that we use the following approach:
 
 
 1. Locally lock the paths to the repositories you are working on. This can be
@@ -46,7 +46,9 @@ The basic idea is that we use the following approach:,,
    ```
    ./waf configure --boost_path ../new-boost --lock_paths
    ```
-2. To t
+2. To ensure that your changes are available on the buildbot add/modify the
+   depenencies you are working on in `resolve.json`. Use the `override=True`
+   property to make sure that your version of the dependency is used.
 
 
 ## Todo 
