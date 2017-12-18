@@ -25,8 +25,6 @@ class FixConfigurationContext(WafConfigurationContext):
    
     def execute(self):
         
-    
-
         super(FixConfigurationContext, self).execute()
         self.recurse_dependencies()
 
