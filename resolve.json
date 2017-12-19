@@ -1,14 +1,5 @@
 [
     {
-        "name": "kodo-core",
-        "resolver": "git",
-        "method": "semver",
-        "major": 14,
-        "sources": [
-            "github.com/steinwurf/kodo-core.git"
-        ]
-    },
-    {
         "name": "kodo-rlnc",
         "resolver": "git",
         "method": "semver",

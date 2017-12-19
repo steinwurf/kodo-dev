@@ -16,7 +16,6 @@ as if they were located in the same repository.
 As a simple example. A bug is reported against `kodo-core` you can set the 
 branch for `kodo-core` here and rebuild all kodo repositories with that version. 
 
-
 ## Goals
 
 1. Ensure that dependencies of all kodo repositories are in sync. I.e. they use
@@ -50,6 +49,23 @@ The basic idea is that we use the following approach:
    depenencies you are working on in `resolve.json`. Use the `override=True`
    property to make sure that your version of the dependency is used.
 
+
+## Example: Force all projects to use the `master` branch of `kodo-core`
+
+To do this you can add the following to `resolve.json`:
+
+```
+    {
+        "name": "kodo-core",
+        "resolver": "git",
+        "method": "checkout",
+        "checkout": "master",
+        "override": true,
+        "sources": [
+            "github.com/steinwurf/kodo-core.git"
+        ]
+    },
+```
 
 ## Todo 
 
