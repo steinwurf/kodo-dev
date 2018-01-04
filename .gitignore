@@ -59,6 +59,7 @@ local.properties
 *.txt
 *.vcxproj*
 VSProjects
+*.code-workspace
 
 # Benchmark output
 figures_database
