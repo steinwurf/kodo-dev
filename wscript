@@ -37,3 +37,6 @@ class FixBuildContext(WafBuildContext):
         else:
             return False
 
+def build(bld):
+    pass
+
