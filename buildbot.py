@@ -57,10 +57,12 @@ def build(properties):
 
 def run_tests(properties):
     command = [sys.executable, 'waf', '-v', '--run_tests']
-    run_cmd = None
+    run_cmd = '%s'
 
     if properties.get('valgrind_run'):
         run_cmd = 'valgrind --error-exitcode=1 %s --profile=embedded'
+    elif 'test_type' in properties:
+        run_cmd += ' --profile={0}'.format(properties['test_type'])
 
     if run_cmd:
         command += ["--run_cmd={}".format(run_cmd)]
