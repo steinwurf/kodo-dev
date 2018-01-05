@@ -60,7 +60,7 @@ def run_tests(properties):
     run_cmd = None
 
     if properties.get('valgrind_run'):
-        run_cmd = 'valgrind --error-exitcode=1 %s'
+        run_cmd = 'valgrind --error-exitcode=1 %s --profile=embedded'
 
     if run_cmd:
         command += ["--run_cmd={}".format(run_cmd)]
