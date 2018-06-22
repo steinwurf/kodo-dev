@@ -34,6 +34,10 @@ class FixBuildContext(WafBuildContext):
             return True
         if 'kodo-fulcrum' in str(self.path):
             return True
+        if 'kodo-perpetual' in str(self.path):
+            return True
+        if 'kodo-slide' in str(self.path):
+            return True
         else:
             return False
 

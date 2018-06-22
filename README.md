@@ -5,6 +5,8 @@ Internal repository for testing the Kodo top level projects:
 * [kodo-rlnc](https://github.com/steinwurf/kodo-rlnc)
 * [kodo-fulcrum](https://github.com/steinwurf/kodo-fulcrum)
 * [kodo-reed-solomon](https://github.com/steinwurf/kodo-reed-solomon)
+* [kodo-slide](https://github.com/steinwurf/kodo-slide)
+* [kodo-perpetual](https://github.com/steinwurf/kodo-perpetual)
 
 Note: `kodo-core` is considered purely a dependency and not a top-level
 repository. It provides building blocks for instantiating erasure correcting
