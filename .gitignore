@@ -26,6 +26,7 @@ waf3-*
 build
 resolve_symlinks
 resolved_dependencies
+build_current
 *.sh
 
 # Gnu Global tag files
