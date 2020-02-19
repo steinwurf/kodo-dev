@@ -3,7 +3,7 @@
         "name": "kodo-rlnc",
         "resolver": "git",
         "method": "semver",
-        "major": 13,
+        "major": 16,
         "sources": [
             "github.com/steinwurf/kodo-rlnc.git"
         ]
@@ -12,7 +12,7 @@
         "name": "kodo-reed-solomon",
         "resolver": "git",
         "method": "semver",
-        "major": 13,
+        "major": 16,
         "sources": [
             "github.com/steinwurf/kodo-reed-solomon.git"
         ]
@@ -21,7 +21,7 @@
         "name": "kodo-fulcrum",
         "resolver": "git",
         "method": "semver",
-        "major": 12,
+        "major": 14,
         "sources": [
             "github.com/steinwurf/kodo-fulcrum.git"
         ]
@@ -30,7 +30,7 @@
         "name": "kodo-perpetual",
         "resolver": "git",
         "method": "semver",
-        "major": 2,
+        "major": 5,
         "sources": [
             "github.com/steinwurf/kodo-perpetual.git"
         ]
@@ -39,7 +39,7 @@
         "name": "kodo-slide",
         "resolver": "git",
         "method": "semver",
-        "major": 3,
+        "major": 6,
         "sources": [
             "github.com/steinwurf/kodo-slide.git"
         ]
